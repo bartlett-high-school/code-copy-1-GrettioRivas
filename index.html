@@ -2,14 +2,152 @@
 <html>
 
   <head>
-    <title>Code Copy #1</title>
-    
+    <title>Code Copy</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!--Put your CSS inside this style tag-->
+
     <style>
+
+    body {
+    	background: #ccc;
+    }
+
+    #whole {
+    	border: solid 0.5px #aaa;
+    	width: 600px;
+    	margin: auto;
+    	font-family: 'Arial', sans-serif;
+    	background: #fff;
+    }
+
+    ul {
+    	list-style: none;
+    }
+
+    .logo {
+    	height: 40px;
+    	width:  40px;
+    	float: left;
+    }
+
+    .logoandname .items {
+    	display: inline-block;
+    }
+
+    .pantry {
+    	float: left;
+    	padding-left: 10px;
+    }
+
+    .pantry li {
+    	margin-bottom: 2px;
+    }
+
+    .toppantry {
+    	font-weight: bold;
+    }
+
+    .time {
+    	color: #aaa;
+    	float: right;
+    	padding-right: 40px;
+    }
+
+    .munkey {
+    	height: 600px;
+    	width: 100%;
+    }
+
+    p {
+    	margin-left: 20px;
+    	font-weight: bold;
+    }
+
+    hr {
+    	color: #aaa;
+    	width: 95%;
+    	padding: auto;
+    }
+
+    .comments {
+    	padding-left: 20px;
+    	color: #aaa;
+    }
+
+    .comments .west {
+    	display: inline-block;
+    }
+
+    .heart {
+    	height: 20px;
+    	width: 20px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .heart img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .words {
+    	margin-bottom: 10px;
+      margin-left: 5px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .dots {
+    	height: 7.5px;
+    	width: 25px;
+      display: inline-block;
+      padding-left: 60%;
+      vertical-align: top;
+    }
+
+    .dots img {
+      width: 100%;
+      height: 100%;
+    }
+
+    
     </style>
   </head>
   
   <body>
+  	<div id="whole">
+  		<div class="top">
+  		
+  			<ul class="logoandname">
+	  			<li class="items"><img src="img/logo.jpg" class="logo"></li>
+	  			<li class="items">
+		  			<ul class="pantry">
+		  				<li class="toppantry">387pantry</li>
+		  				<li>387 Pantry</li>
+		  			</ul>
+	  			</li>
+	  			<li class="items time">44m</li>
+  			</ul>
+  		</div>
+
+  		<img src="img/munkey.jpg" class="munkey">
+
+  		<p>69 likes</p>
+  		<p>387pantry New Year | Same great coffee (and other great stuff too).</p>
+  		
+  		<hr>
+
+  		<ul class="comments">
+  			<li class="heart"><img src="img/ig_heart.png"></li>
+  			<li class="words">Add a comment...</li>
+  			<li class="dots"><img src="img/ig_dots.png"></li>
+  		</ul>
+  		
+  	</div>
+
+  	
   </body>
   
 </html>
+
